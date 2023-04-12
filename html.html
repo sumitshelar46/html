@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - (headerHeight + footerHeight));
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Header</h2>
+</div>
+
+<div class="content">
+  <h2>Content</h2>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
